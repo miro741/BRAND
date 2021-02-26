@@ -9430,7 +9430,7 @@ if Sudo(msg) then
 if text == "تحديث السورس" or text == "تحديث سورس" then 
 Dev_BrAnD(msg.chat_id_, msg.id_, 1, '♰ ⌯ جاري تحديث سورس براند ', 1, 'md') 
 os.execute('rm -rf BrAnD.lua') 
-os.execute('wget https://raw.githubusercontent.com/iq0BrAnD/BrAnD/master/BrAnD.lua') 
+os.execute('https://raw.githubusercontent.com/miro741/BRAND/main/DEVBRAND.lua') 
 dofile('BrAnD.lua') 
 io.popen("rm -rf ~/.telegram-cli/data/audio/*")
 io.popen("rm -rf ~/.telegram-cli/data/document/*")
